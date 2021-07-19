@@ -1,0 +1,40 @@
+[INFO ] [2021-07-19 01:47:43,410] Register to system
+[INFO ] [2021-07-19 01:47:43,718] Navigate to register page
+[INFO ] [2021-07-19 01:47:48,475] Input fullname to full name textbox
+[INFO ] [2021-07-19 01:47:50,400] Input email to email textbox
+[INFO ] [2021-07-19 01:47:52,091] Input phone to phone textbox
+[INFO ] [2021-07-19 01:47:53,424] Select information channel
+[INFO ] [2021-07-19 01:47:57,060] Check to term checkbox
+[INFO ] [2021-07-19 01:47:57,292] click to continue button
+[INFO ] [2021-07-19 01:47:57,449] input mobile OTP number
+[INFO ] [2021-07-19 01:48:03,342] Verify the completed register page is displayed
+[INFO ] [2021-07-19 01:48:07,518] Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 01:48:07,669] Select business role
+[INFO ] [2021-07-19 01:48:09,101] Select company register place
+[INFO ] [2021-07-19 01:48:13,607] Select solutions
+[INFO ] [2021-07-19 01:48:20,860] Click to continue button
+[INFO ] [2021-07-19 01:48:21,065] Select registration method
+[INFO ] [2021-07-19 01:48:31,056] Input date of birth to the textbox field
+[INFO ] [2021-07-19 01:48:42,702] Select nationality in dropdown list
+[INFO ] [2021-07-19 01:48:47,219] Select gender in dropdown list
+[INFO ] [2021-07-19 01:48:50,667] Click to submit button
+[INFO ] [2021-07-19 01:48:50,992] Input email OTP number to textbox
+[INFO ] [2021-07-19 01:48:57,220] Input business legal name
+[INFO ] [2021-07-19 01:49:02,705] Input entity category
+[INFO ] [2021-07-19 01:49:06,179] Input entity type
+[INFO ] [2021-07-19 01:49:09,511] Input UEN number
+[INFO ] [2021-07-19 01:49:10,841] Input industry
+[INFO ] [2021-07-19 01:49:14,237] Input sub-industry
+[INFO ] [2021-07-19 01:49:17,743] Click to continue button
+[INFO ] [2021-07-19 01:49:17,899] Input business activity
+[INFO ] [2021-07-19 01:49:20,408] Input service detail
+[INFO ] [2021-07-19 01:49:23,023] Input company website
+[INFO ] [2021-07-19 01:49:24,435] Input number of employees
+[INFO ] [2021-07-19 01:49:27,793] Input Annual turnover
+[INFO ] [2021-07-19 01:49:31,176] Click to continue button
+[INFO ] [2021-07-19 01:49:31,359] Answer the first question
+[INFO ] [2021-07-19 01:49:50,301] Answer the second question
+[INFO ] [2021-07-19 01:49:50,542] Click to continue button
+[INFO ] [2021-07-19 01:49:50,710] Skip uploading certificate
+[INFO ] [2021-07-19 01:50:01,038] Click start identity button
+[INFO ] [2021-07-19 01:50:01,360] Click begin button

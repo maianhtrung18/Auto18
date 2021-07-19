@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 50.841 s <<< FAILURE! - in TestSuite
+TC_01(Testcases.commonFeature.Registration)  Time elapsed: 2.876 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+TypeError: browsingContextFn().currentWindowGlobal is null
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GAOTPGE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210204182252, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 18656, moz:profile: C:\Users\Mai Anh Trung\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 73d71093-270d-4ce8-b80f-bedcbd0e4892
+*** Element info: {Using=xpath, value=//a[contains(text(),'Register')]}
+	at Testcases.commonFeature.Registration.TC_01(Registration.java:47)
+
+closeBrowser(Testcases.commonFeature.Registration)  Time elapsed: 4.358 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GAOTPGE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210204182252, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 18656, moz:profile: C:\Users\Mai Anh Trung\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 73d71093-270d-4ce8-b80f-bedcbd0e4892
+

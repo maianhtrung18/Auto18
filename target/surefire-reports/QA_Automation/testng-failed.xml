@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [QA_Automation]">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" verbose="0" name="RunTestcases(failed)">
+    <classes>
+      <class name="Testcases.commonFeature.Registration">
+        <methods>
+          <include name="initTest"/>
+          <include name="closeBrowser"/>
+          <include name="TC_01"/>
+        </methods>
+      </class> <!-- Testcases.commonFeature.Registration -->
+    </classes>
+  </test> <!-- RunTestcases(failed) -->
+</suite> <!-- Failed suite [QA_Automation] -->

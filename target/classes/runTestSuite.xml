@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<suite parallel="false" name="QA_Automation">
+
+
+    <parameter name="browser" value="firefox"/>
+    <test name="RunTestcases">
+        <classes>
+            <class name="Testcases.commonFeature.Registration"/>
+        </classes>
+    </test>
+</suite>
