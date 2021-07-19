@@ -107,7 +107,7 @@ public class Registration extends BaseTest {
         log.info("Click to submit button");
         personalDetail.clickToSubmitButton();
 
-        log.info("Input email OTP number to textbox");
+        log.info("Input email OTP number to text box");
         verificationPage.inputOTPNumber(OTPNumber);
 
         log.info("Input business legal name");
