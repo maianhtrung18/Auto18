@@ -639,3 +639,411 @@
 [INFO ] [2021-07-19 01:49:50,710] Skip uploading certificate
 [INFO ] [2021-07-19 01:50:01,038] Click start identity button
 [INFO ] [2021-07-19 01:50:01,360] Click begin button
+[INFO ] [2021-07-19 10:00:35,113] Register to system
+[INFO ] [2021-07-19 10:00:35,460] Navigate to register page
+[INFO ] [2021-07-19 10:00:40,204] Input fullname to full name textbox
+[INFO ] [2021-07-19 10:00:42,391] Input email to email textbox
+[INFO ] [2021-07-19 10:00:44,147] Input phone to phone textbox
+[INFO ] [2021-07-19 10:00:45,486] Select information channel
+[INFO ] [2021-07-19 10:00:48,987] Check to term checkbox
+[INFO ] [2021-07-19 10:00:49,165] click to continue button
+[INFO ] [2021-07-19 10:00:49,329] input mobile OTP number
+[INFO ] [2021-07-19 10:00:57,811] Verify the completed register page is displayed
+[INFO ] [2021-07-19 10:01:03,737] Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 10:01:03,962] Select business role
+[INFO ] [2021-07-19 10:01:05,724] Select company register place
+[INFO ] [2021-07-19 10:06:33,305] Register to system
+[INFO ] [2021-07-19 10:06:33,837] Navigate to register page
+[INFO ] [2021-07-19 10:06:38,960] Input fullname to full name textbox
+[INFO ] [2021-07-19 10:06:41,235] Input email to email textbox
+[INFO ] [2021-07-19 10:06:42,976] Input phone to phone textbox
+[INFO ] [2021-07-19 10:06:44,350] Select information channel
+[INFO ] [2021-07-19 10:06:47,866] Check to term checkbox
+[INFO ] [2021-07-19 10:06:48,053] click to continue button
+[INFO ] [2021-07-19 10:06:48,202] input mobile OTP number
+[INFO ] [2021-07-19 10:06:56,278] Verify the completed register page is displayed
+[INFO ] [2021-07-19 10:07:02,127] Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 10:07:02,304] Select business role
+[INFO ] [2021-07-19 10:07:04,129] Select company register place
+[INFO ] [2021-07-19 10:07:08,730] Select solutions
+[INFO ] [2021-07-19 10:07:14,469] Click to continue button
+[INFO ] [2021-07-19 10:07:14,657] Select registration method
+[INFO ] [2021-07-19 10:07:30,120] Input date of birth to the textbox field
+[INFO ] [2021-07-19 10:07:39,476] Select nationality in dropdown list
+[INFO ] [2021-07-19 10:07:43,973] Select gender in dropdown list
+[INFO ] [2021-07-19 10:07:47,382] Click to submit button
+[INFO ] [2021-07-19 10:07:47,621] Input email OTP number to text box
+[INFO ] [2021-07-19 10:07:55,490] Input business legal name
+[INFO ] [2021-07-19 10:08:03,283] Input entity category
+[INFO ] [2021-07-19 10:08:06,685] Input entity type
+[INFO ] [2021-07-19 10:08:10,021] Input UEN number
+[INFO ] [2021-07-19 10:08:11,332] Input industry
+[INFO ] [2021-07-19 10:08:14,753] Input sub-industry
+[INFO ] [2021-07-19 10:08:18,221] Click to continue button
+[INFO ] [2021-07-19 10:08:18,424] Input business activity
+[INFO ] [2021-07-19 10:08:21,584] Input service detail
+[INFO ] [2021-07-19 10:08:24,301] Input company website
+[INFO ] [2021-07-19 10:08:25,730] Input number of employees
+[INFO ] [2021-07-19 10:08:29,109] Input Annual turnover
+[INFO ] [2021-07-19 10:08:32,431] Click to continue button
+[INFO ] [2021-07-19 10:08:32,595] Answer the first question
+[INFO ] [2021-07-19 10:10:53,614] Register to system
+[INFO ] [2021-07-19 10:10:53,992] Navigate to register page
+[INFO ] [2021-07-19 10:10:58,276] Input fullname to full name textbox
+[INFO ] [2021-07-19 10:11:00,328] Input email to email textbox
+[INFO ] [2021-07-19 10:11:02,125] Input phone to phone textbox
+[INFO ] [2021-07-19 10:11:03,565] Select information channel
+[INFO ] [2021-07-19 10:11:07,141] Check to term checkbox
+[INFO ] [2021-07-19 10:11:07,343] click to continue button
+[INFO ] [2021-07-19 10:11:07,503] input mobile OTP number
+[INFO ] [2021-07-19 10:11:16,709] Verify the completed register page is displayed
+[INFO ] [2021-07-19 10:11:24,947] Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 10:11:25,085] Select business role
+[INFO ] [2021-07-19 10:11:26,803] Select company register place
+[INFO ] [2021-07-19 10:11:41,262] Select solutions
+[INFO ] [2021-07-19 10:13:10,620] Register to system
+[INFO ] [2021-07-19 10:13:11,126] Navigate to register page
+[INFO ] [2021-07-19 10:13:11,285] Input fullname to full name textbox
+[INFO ] [2021-07-19 10:13:13,404] Input email to email textbox
+[INFO ] [2021-07-19 10:13:15,077] Input phone to phone textbox
+[INFO ] [2021-07-19 10:13:16,438] Select information channel
+[INFO ] [2021-07-19 10:13:20,047] Check to term checkbox
+[INFO ] [2021-07-19 10:13:20,258] click to continue button
+[INFO ] [2021-07-19 10:13:20,411] input mobile OTP number
+[INFO ] [2021-07-19 10:13:32,253] Verify the completed register page is displayed
+[INFO ] [2021-07-19 10:13:40,862] Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 10:13:41,043] Select business role
+[INFO ] [2021-07-19 10:13:42,453] Select company register place
+[INFO ] [2021-07-19 10:13:47,106] Select solutions
+[INFO ] [2021-07-19 10:13:52,838] Click to continue button
+[INFO ] [2021-07-19 10:13:53,038] Select registration method
+[INFO ] [2021-07-19 10:14:07,615] Input date of birth to the textbox field
+[INFO ] [2021-07-19 10:14:16,610] Select nationality in dropdown list
+[INFO ] [2021-07-19 10:14:21,067] Select gender in dropdown list
+[INFO ] [2021-07-19 10:14:24,442] Click to submit button
+[INFO ] [2021-07-19 10:14:24,606] Input email OTP number to text box
+[INFO ] [2021-07-19 10:14:32,351] Input business legal name
+[INFO ] [2021-07-19 10:14:39,675] Input entity category
+[INFO ] [2021-07-19 10:14:43,136] Input entity type
+[INFO ] [2021-07-19 10:14:46,465] Input UEN number
+[INFO ] [2021-07-19 10:14:47,832] Input industry
+[INFO ] [2021-07-19 10:14:51,331] Input sub-industry
+[INFO ] [2021-07-19 10:14:54,870] Click to continue button
+[INFO ] [2021-07-19 10:14:55,089] Input business activity
+[INFO ] [2021-07-19 10:14:58,566] Input service detail
+[INFO ] [2021-07-19 10:15:01,039] Input company website
+[INFO ] [2021-07-19 10:15:02,463] Input number of employees
+[INFO ] [2021-07-19 10:15:05,954] Input Annual turnover
+[INFO ] [2021-07-19 10:15:09,392] Click to continue button
+[INFO ] [2021-07-19 10:15:09,585] Answer the first question
+[INFO ] [2021-07-19 10:15:32,861] Answer the second question
+[INFO ] [2021-07-19 10:15:33,101] Click to continue button
+[INFO ] [2021-07-19 10:15:33,308] Skip uploading certificate
+[INFO ] [2021-07-19 10:16:03,366] Click start identity button
+[INFO ] [2021-07-19 10:16:03,944] Click begin button
+[INFO ] [2021-07-19 11:41:32,016] Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 11:42:02,113] Register to system
+[INFO ] [2021-07-19 11:42:02,113] Navigate to register page
+[INFO ] [2021-07-19 11:42:02,314] Input fullname to full name textbox
+[INFO ] [2021-07-19 11:42:04,958] Input email to email textbox
+[INFO ] [2021-07-19 11:42:06,326] Input phone to phone textbox
+[INFO ] [2021-07-19 11:42:07,528] Select information channel
+[INFO ] [2021-07-19 11:42:11,354] Check to term checkbox
+[INFO ] [2021-07-19 11:42:12,927] click to continue button
+[INFO ] [2021-07-19 11:42:14,030] input mobile OTP number
+[INFO ] [2021-07-19 11:45:43,662] Register to system
+[INFO ] [2021-07-19 11:45:44,343] Navigate to register page
+[INFO ] [2021-07-19 11:45:58,574] Input fullname to full name textbox
+[INFO ] [2021-07-19 11:46:02,792] Input email to email textbox
+[INFO ] [2021-07-19 11:46:04,147] Input phone to phone textbox
+[INFO ] [2021-07-19 11:46:05,527] Select information channel
+[INFO ] [2021-07-19 11:46:09,374] Check to term checkbox
+[INFO ] [2021-07-19 11:46:09,737] click to continue button
+[INFO ] [2021-07-19 11:46:10,076] input mobile OTP number
+[INFO ] [2021-07-19 11:46:28,192] Verify the completed register page is displayed
+[INFO ] [2021-07-19 11:46:43,509] Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 11:46:43,864] Select business role
+[INFO ] [2021-07-19 11:46:45,818] Select company register place
+[INFO ] [2021-07-19 11:49:22,710] Register to system
+[INFO ] [2021-07-19 11:49:23,161] Navigate to register page
+[INFO ] [2021-07-19 11:49:33,623] Input fullname to full name textbox
+[INFO ] [2021-07-19 11:49:37,302] Input email to email textbox
+[INFO ] [2021-07-19 11:49:39,503] Input phone to phone textbox
+[INFO ] [2021-07-19 11:49:41,714] Select information channel
+[INFO ] [2021-07-19 11:49:45,549] Check to term checkbox
+[INFO ] [2021-07-19 11:49:46,035] click to continue button
+[INFO ] [2021-07-19 11:49:46,374] input mobile OTP number
+[INFO ] [2021-07-19 11:49:55,117] Verify the completed register page is displayed
+[INFO ] [2021-07-19 11:50:00,710] Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 11:50:01,026] Select business role
+[INFO ] [2021-07-19 11:50:03,567] Select company register place
+[INFO ] [2021-07-19 11:50:10,425] Select solutions
+[INFO ] [2021-07-19 11:50:16,519] Click to continue button
+[INFO ] [2021-07-19 11:50:16,635] Select registration method
+[INFO ] [2021-07-19 11:50:38,064] Input date of birth to the textbox field
+[INFO ] [2021-07-19 11:50:48,060] Select nationality in dropdown list
+[INFO ] [2021-07-19 11:50:53,792] Select gender in dropdown list
+[INFO ] [2021-07-19 11:50:57,430] Click to submit button
+[INFO ] [2021-07-19 11:50:57,809] Input email OTP number to text box
+[INFO ] [2021-07-19 11:54:52,550] Register to system
+[INFO ] [2021-07-19 11:54:53,722] Navigate to register page
+[INFO ] [2021-07-19 11:55:00,791] Input fullname to full name textbox
+[INFO ] [2021-07-19 11:55:04,201] Input email to email textbox
+[INFO ] [2021-07-19 11:55:06,438] Input phone to phone textbox
+[INFO ] [2021-07-19 11:55:08,644] Select information channel
+[INFO ] [2021-07-19 11:55:12,538] Check to term checkbox
+[INFO ] [2021-07-19 11:55:12,939] click to continue button
+[INFO ] [2021-07-19 11:55:13,271] input mobile OTP number
+[INFO ] [2021-07-19 11:55:24,106] Verify the completed register page is displayed
+[INFO ] [2021-07-19 11:55:32,295] Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 11:55:32,611] Select business role
+[INFO ] [2021-07-19 11:55:34,935] Select company register place
+[INFO ] [2021-07-19 11:55:40,806] Select solutions
+[INFO ] [2021-07-19 11:55:46,974] Click to continue button
+[INFO ] [2021-07-19 11:55:47,127] Select registration method
+[INFO ] [2021-07-19 11:56:10,241] Input date of birth to the textbox field
+[INFO ] [2021-07-19 11:56:19,923] Select nationality in dropdown list
+[INFO ] [2021-07-19 11:56:25,685] Select gender in dropdown list
+[INFO ] [2021-07-19 11:56:29,317] Click to submit button
+[INFO ] [2021-07-19 11:56:29,649] Input email OTP number to text box
+[INFO ] [2021-07-19 11:56:39,006] Input business legal name
+[INFO ] [2021-07-19 11:56:46,879] Input entity category
+[INFO ] [2021-07-19 11:56:50,622] Input entity type
+[INFO ] [2021-07-19 11:56:54,335] Input UEN number
+[INFO ] [2021-07-19 11:56:56,542] Input industry
+[INFO ] [2021-07-19 11:57:00,270] Input sub-industry
+[INFO ] [2021-07-19 11:57:04,020] Click to continue button
+[INFO ] [2021-07-19 11:57:04,383] Input business activity
+[INFO ] [2021-07-19 11:57:07,493] Input service detail
+[INFO ] [2021-07-19 11:57:09,769] Input company website
+[INFO ] [2021-07-19 11:57:11,945] Input number of employees
+[INFO ] [2021-07-19 11:57:15,689] Input Annual turnover
+[INFO ] [2021-07-19 11:57:19,469] Click to continue button
+[INFO ] [2021-07-19 11:57:19,817] Answer the first question
+[INFO ] [2021-07-19 11:57:42,539] Answer the second question
+[INFO ] [2021-07-19 11:57:42,871] Click to continue button
+[INFO ] [2021-07-19 11:57:43,218] Skip uploading certificate
+[INFO ] [2021-07-19 11:57:59,816] Click start identity button
+[INFO ] [2021-07-19 11:58:00,615] Click begin button
+[INFO ] [2021-07-19 12:04:04,450] Register to system
+[INFO ] [2021-07-19 12:04:05,074] Navigate to register page
+[INFO ] [2021-07-19 12:04:12,104] Input full name to full name text box
+[INFO ] [2021-07-19 12:04:15,544] Input email to email text box
+[INFO ] [2021-07-19 12:04:17,742] Input phone to phone text box
+[INFO ] [2021-07-19 12:04:19,924] Select information channel
+[INFO ] [2021-07-19 12:04:23,693] Check to term checkbox
+[INFO ] [2021-07-19 12:04:24,056] click to continue button
+[INFO ] [2021-07-19 12:04:24,392] input mobile OTP number
+[INFO ] [2021-07-19 12:04:35,902] Verify the completed register page is displayed
+[INFO ] [2021-07-19 12:04:47,263] Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 12:04:47,579] Select business role
+[INFO ] [2021-07-19 12:04:50,271] Select company register place
+[INFO ] [2021-07-19 12:04:56,143] Select solutions
+[INFO ] [2021-07-19 12:05:02,358] Click to continue button
+[INFO ] [2021-07-19 12:05:02,505] Select registration method
+[INFO ] [2021-07-19 12:05:23,387] Input date of birth to the textbox field
+[INFO ] [2021-07-19 12:05:33,661] Select nationality in dropdown list
+[INFO ] [2021-07-19 12:05:39,425] Select gender in dropdown list
+[INFO ] [2021-07-19 12:05:43,152] Click to submit button
+[INFO ] [2021-07-19 12:05:43,553] Input email OTP number to text box
+[INFO ] [2021-07-19 12:05:53,367] Input business legal name
+[INFO ] [2021-07-19 12:06:00,542] Input entity category
+[INFO ] [2021-07-19 12:06:04,214] Input entity type
+[INFO ] [2021-07-19 12:06:07,845] Input UEN number
+[INFO ] [2021-07-19 12:06:09,998] Input industry
+[INFO ] [2021-07-19 12:06:13,660] Input sub-industry
+[INFO ] [2021-07-19 12:06:17,317] Click to continue button
+[INFO ] [2021-07-19 12:06:17,618] Input business activity
+[INFO ] [2021-07-19 12:06:20,663] Input service detail
+[INFO ] [2021-07-19 12:06:22,931] Input company website
+[INFO ] [2021-07-19 12:06:25,090] Input number of employees
+[INFO ] [2021-07-19 12:06:28,699] Input Annual turnover
+[INFO ] [2021-07-19 12:06:32,309] Click to continue button
+[INFO ] [2021-07-19 12:06:32,625] Answer the first question
+[INFO ] [2021-07-19 12:19:46,200] TC_01: Register to system
+[INFO ] [2021-07-19 12:19:46,747] TC_01 Step 1: Navigate to register page
+[INFO ] [2021-07-19 12:19:54,865] TC_01 Step 2: Input full name to full name text box
+[INFO ] [2021-07-19 12:20:00,128] TC_01 Step 3: Input email to email text box
+[INFO ] [2021-07-19 12:20:04,223] TC_01 Step 4: Input phone to phone text box
+[INFO ] [2021-07-19 12:20:06,588] TC_01 Step 5: Select information channel
+[INFO ] [2021-07-19 12:20:10,081] TC_01 Step 6: Check to term checkbox
+[INFO ] [2021-07-19 12:20:10,243] TC_01 Step 7: Click to continue button
+[INFO ] [2021-07-19 12:20:10,396] TC_01 Step 8: Input mobile OTP number
+[INFO ] [2021-07-19 12:20:19,220] TC_01 Step 9: Verify the completed register page is displayed
+[INFO ] [2021-07-19 12:20:24,550] TC_02: Input personal detail
+[INFO ] [2021-07-19 12:20:24,612] TC_02 Step 1: Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 12:20:24,735] TC_02 Step 2: Select business role
+[INFO ] [2021-07-19 12:20:28,274] TC_02 Step 3: Select company register place
+[INFO ] [2021-07-19 12:20:33,819] TC_02 Step 4: Select solutions
+[INFO ] [2021-07-19 12:20:39,398] TC_02 Step 5: Click to continue button
+[INFO ] [2021-07-19 12:20:39,523] TC_02 Step 6: Select registration method
+[INFO ] [2021-07-19 12:21:01,311] TC_02 Step 7: Input date of birth to the textbox field
+[INFO ] [2021-07-19 12:21:10,948] TC_02 Step 8: Select nationality in dropdown list
+[INFO ] [2021-07-19 12:21:16,490] TC_02 Step 9: Select gender in dropdown list
+[INFO ] [2021-07-19 12:21:19,944] TC_02 Step 10: Click to submit button
+[INFO ] [2021-07-19 12:21:20,139] TC_02 Step 11: Input email OTP number to text box
+[INFO ] [2021-07-19 12:21:29,558] TC_03: Input business detail
+[INFO ] [2021-07-19 12:21:29,628] TC_03 Step 1: Input business legal name
+[INFO ] [2021-07-19 12:21:40,826] TC_03 Step 2: Input entity category
+[INFO ] [2021-07-19 12:22:09,844] TC_03 Step 3: Input entity type
+[INFO ] [2021-07-19 12:22:13,249] TC_03 Step 4: Input UEN number
+[INFO ] [2021-07-19 12:22:15,565] TC_03 Step 5: Input industry
+[INFO ] [2021-07-19 12:22:18,915] TC_03 Step 6: Input sub-industry
+[INFO ] [2021-07-19 12:22:22,421] TC_03 Step 7: Click to continue button
+[INFO ] [2021-07-19 12:22:22,655] TC_03 Step 8: Input business activity
+[INFO ] [2021-07-19 12:22:27,139] TC_03 Step 9: Input service detail
+[INFO ] [2021-07-19 12:22:30,739] TC_03 Step 10: Input company website
+[INFO ] [2021-07-19 12:22:33,231] TC_03 Step 11: Input number of employees
+[INFO ] [2021-07-19 12:22:36,578] TC_03 Step 12: Input Annual turnover
+[INFO ] [2021-07-19 12:22:39,952] TC_03 Step 13: Click to continue button
+[INFO ] [2021-07-19 12:22:40,122] TC_03 Step 14: Answer the first question
+[INFO ] [2021-07-19 12:23:03,171] TC_03 Step 15: Answer the second question
+[INFO ] [2021-07-19 12:23:03,364] TC_03 Step 16: Click to continue button
+[INFO ] [2021-07-19 12:23:03,531] TC_03 Step 17: Skip uploading certificate
+[INFO ] [2021-07-19 12:23:14,862] TC_03 Step 18: Click start identity button
+[INFO ] [2021-07-19 12:23:15,207] TC_03 Step 19: Click begin button
+[INFO ] [2021-07-19 12:26:03,789] TC_01: Register to system
+[INFO ] [2021-07-19 12:26:03,936] TC_01 Step 1: Navigate to register page
+[INFO ] [2021-07-19 12:26:12,459] TC_01 Step 2: Input full name to full name text box
+[INFO ] [2021-07-19 12:26:15,421] TC_01 Step 3: Input email to email text box
+[INFO ] [2021-07-19 12:26:17,596] TC_01 Step 4: Input phone to phone text box
+[INFO ] [2021-07-19 12:26:19,770] TC_01 Step 5: Select information channel
+[INFO ] [2021-07-19 12:26:23,542] TC_01 Step 6: Check to term checkbox
+[INFO ] [2021-07-19 12:26:23,859] TC_01 Step 7: Click to continue button
+[INFO ] [2021-07-19 12:26:24,197] TC_01 Step 8: Input mobile OTP number
+[INFO ] [2021-07-19 12:26:32,667] TC_01 Step 9: Verify the completed register page is displayed
+[INFO ] [2021-07-19 12:27:53,090] TC_01: Register to system
+[INFO ] [2021-07-19 12:27:53,670] TC_01 Step 1: Navigate to register page
+[INFO ] [2021-07-19 12:28:01,252] TC_01 Step 2: Input full name to full name text box
+[INFO ] [2021-07-19 12:28:04,161] TC_01 Step 3: Input email to email text box
+[INFO ] [2021-07-19 12:28:06,393] TC_01 Step 4: Input phone to phone text box
+[INFO ] [2021-07-19 12:28:08,577] TC_01 Step 5: Select information channel
+[INFO ] [2021-07-19 12:28:12,403] TC_01 Step 6: Check to term checkbox
+[INFO ] [2021-07-19 12:28:12,735] TC_01 Step 7: Click to continue button
+[INFO ] [2021-07-19 12:28:14,632] TC_01 Step 8: Input mobile OTP number
+[INFO ] [2021-07-19 12:28:23,161] TC_01 Step 9: Verify the completed register page is displayed
+[INFO ] [2021-07-19 12:28:28,400] TC_02: Input personal detail
+[INFO ] [2021-07-19 12:28:28,462] TC_02 Step 1: Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 12:28:28,801] TC_02 Step 2: Select business role
+[INFO ] [2021-07-19 12:28:31,286] TC_02 Step 3: Select company register place
+[INFO ] [2021-07-19 12:28:37,086] TC_02 Step 4: Select solutions
+[INFO ] [2021-07-19 12:28:43,155] TC_02 Step 5: Click to continue button
+[INFO ] [2021-07-19 12:28:43,303] TC_02 Step 6: Select registration method
+[INFO ] [2021-07-19 12:29:02,176] TC_02 Step 7: Input date of birth to the textbox field
+[INFO ] [2021-07-19 12:29:11,760] TC_02 Step 8: Select nationality in dropdown list
+[INFO ] [2021-07-19 12:29:17,563] TC_02 Step 9: Select gender in dropdown list
+[INFO ] [2021-07-19 12:29:21,237] TC_02 Step 10: Click to submit button
+[INFO ] [2021-07-19 12:29:21,623] TC_02 Step 11: Input email OTP number to text box
+[INFO ] [2021-07-19 12:37:58,610] TC_01: Register to system
+[INFO ] [2021-07-19 12:37:59,096] TC_01 Step 1: Navigate to register page
+[INFO ] [2021-07-19 12:38:14,017] TC_01 Step 2: Input full name to full name text box
+[INFO ] [2021-07-19 12:38:17,704] TC_01 Step 3: Input email to email text box
+[INFO ] [2021-07-19 12:38:20,344] TC_01 Step 4: Input phone to phone text box
+[INFO ] [2021-07-19 12:38:22,804] TC_01 Step 5: Select information channel
+[INFO ] [2021-07-19 12:38:26,453] TC_01 Step 6: Check to term checkbox
+[INFO ] [2021-07-19 12:38:26,730] TC_01 Step 7: Click to continue button
+[INFO ] [2021-07-19 12:38:26,898] TC_01 Step 8: Input mobile OTP number
+[INFO ] [2021-07-19 12:38:39,137] TC_01 Step 9: Verify the completed register page is displayed
+[INFO ] [2021-07-19 12:38:47,846] TC_02: Input personal detail
+[INFO ] [2021-07-19 12:38:47,934] TC_02 Step 1: Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 12:38:48,106] TC_02 Step 2: Select business role
+[INFO ] [2021-07-19 12:38:51,171] TC_02 Step 3: Select company register place
+[INFO ] [2021-07-19 12:38:56,885] TC_02 Step 4: Select solutions
+[INFO ] [2021-07-19 12:39:02,559] TC_02 Step 5: Click to continue button
+[INFO ] [2021-07-19 12:39:02,689] TC_02 Step 6: Select registration method
+[INFO ] [2021-07-19 12:39:24,575] TC_02 Step 7: Input date of birth to the textbox field
+[INFO ] [2021-07-19 12:39:33,937] TC_02 Step 8: Select nationality in dropdown list
+[INFO ] [2021-07-19 12:39:39,569] TC_02 Step 9: Select gender in dropdown list
+[INFO ] [2021-07-19 12:39:42,874] TC_02 Step 10: Click to submit button
+[INFO ] [2021-07-19 12:39:43,064] TC_02 Step 11: Input email OTP number to text box
+[INFO ] [2021-07-19 12:39:51,957] TC_02 Step 12: Verify business detail page is displayed
+[INFO ] [2021-07-19 12:39:57,650] TC_03: Input business detail
+[INFO ] [2021-07-19 12:39:57,706] TC_03 Step 1: Input business legal name
+[INFO ] [2021-07-19 12:40:00,030] TC_03 Step 2: Input entity category
+[INFO ] [2021-07-19 12:40:03,370] TC_03 Step 3: Input entity type
+[INFO ] [2021-07-19 12:40:06,743] TC_03 Step 4: Input UEN number
+[INFO ] [2021-07-19 12:40:09,151] TC_03 Step 5: Input industry
+[INFO ] [2021-07-19 12:40:12,579] TC_03 Step 6: Input sub-industry
+[INFO ] [2021-07-19 12:40:16,205] TC_03 Step 7: Click to continue button
+[INFO ] [2021-07-19 12:40:16,443] TC_03 Step 8: Input business activity
+[INFO ] [2021-07-19 12:40:21,050] TC_03 Step 9: Input service detail
+[INFO ] [2021-07-19 12:40:24,444] TC_03 Step 10: Input company website
+[INFO ] [2021-07-19 12:40:26,883] TC_03 Step 11: Input number of employees
+[INFO ] [2021-07-19 12:40:30,298] TC_03 Step 12: Input Annual turnover
+[INFO ] [2021-07-19 12:40:33,744] TC_03 Step 13: Click to continue button
+[INFO ] [2021-07-19 12:40:33,952] TC_03 Step 14: Answer the first question
+[INFO ] [2021-07-19 12:40:59,956] TC_03 Step 15: Answer the second question
+[INFO ] [2021-07-19 12:41:00,205] TC_03 Step 16: Click to continue button
+[INFO ] [2021-07-19 12:41:00,387] TC_03 Step 17: Skip uploading certificate
+[INFO ] [2021-07-19 12:41:16,528] TC_03 Step 18: Click start identity button
+[INFO ] [2021-07-19 12:41:16,775] TC_03 Step 19: Click begin button
+[INFO ] [2021-07-19 12:47:03,252] TC_01: Register to system
+[INFO ] [2021-07-19 12:47:03,803] TC_01 Step 1: Navigate to register page
+[INFO ] [2021-07-19 12:47:19,286] TC_01 Step 2: Input full name to full name text box
+[INFO ] [2021-07-19 12:47:27,511] TC_01 Step 3: Input email to email text box
+[INFO ] [2021-07-19 12:47:30,216] TC_01 Step 4: Input phone to phone text box
+[INFO ] [2021-07-19 12:47:33,777] TC_01 Step 5: Select information channel
+[INFO ] [2021-07-19 12:47:37,266] TC_01 Step 6: Check to term checkbox
+[INFO ] [2021-07-19 12:47:37,443] TC_01 Step 7: Click to continue button
+[INFO ] [2021-07-19 12:47:37,653] TC_01 Step 8: Input mobile OTP number
+[INFO ] [2021-07-19 12:47:49,625] TC_01 Step 9: Verify the completed register page is displayed
+[INFO ] [2021-07-19 12:47:55,456] TC_02: Input personal detail
+[INFO ] [2021-07-19 12:47:55,541] TC_02 Step 1: Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 12:47:55,731] TC_02 Step 2: Select business role
+[INFO ] [2021-07-19 12:48:00,246] TC_02 Step 3: Select company register place
+[INFO ] [2021-07-19 12:48:05,884] TC_02 Step 4: Select solutions
+[INFO ] [2021-07-19 12:48:11,598] TC_02 Step 5: Click to continue button
+[INFO ] [2021-07-19 12:48:11,766] TC_02 Step 6: Select registration method
+[INFO ] [2021-07-19 12:48:48,523] TC_02 Step 7: Input date of birth to the textbox field
+[INFO ] [2021-07-19 12:48:57,419] TC_02 Step 8: Select nationality in dropdown list
+[INFO ] [2021-07-19 12:49:02,891] TC_02 Step 9: Select gender in dropdown list
+[INFO ] [2021-07-19 12:49:06,213] TC_02 Step 10: Click to submit button
+[INFO ] [2021-07-19 12:49:06,340] TC_02 Step 11: Input email OTP number to text box
+[INFO ] [2021-07-19 12:49:29,749] TC_02 Step 12: Verify business detail page is displayed
+[INFO ] [2021-07-19 12:49:43,775] TC_03: Input business detail
+[INFO ] [2021-07-19 12:49:43,830] TC_03 Step 1: Input business legal name
+[INFO ] [2021-07-19 12:49:46,183] TC_03 Step 2: Input entity category
+[INFO ] [2021-07-19 12:49:49,555] TC_03 Step 3: Input entity type
+[INFO ] [2021-07-19 12:49:52,894] TC_03 Step 4: Input UEN number
+[INFO ] [2021-07-19 12:49:55,253] TC_03 Step 5: Input industry
+[INFO ] [2021-07-19 12:49:58,694] TC_03 Step 6: Input sub-industry
+[INFO ] [2021-07-19 12:50:02,255] TC_03 Step 7: Click to continue button
+[INFO ] [2021-07-19 12:50:02,439] TC_03 Step 8: Input business activity
+[INFO ] [2021-07-19 12:53:42,516] TC_01: Register to system
+[INFO ] [2021-07-19 12:53:43,114] TC_01 Step 1: Navigate to register page
+[INFO ] [2021-07-19 12:53:43,378] TC_01 Step 2: Input full name to full name text box
+[INFO ] [2021-07-19 12:53:47,418] TC_01 Step 3: Input email to email text box
+[INFO ] [2021-07-19 12:53:50,129] TC_01 Step 4: Input phone to phone text box
+[INFO ] [2021-07-19 12:53:52,648] TC_01 Step 5: Select information channel
+[INFO ] [2021-07-19 12:53:56,280] TC_01 Step 6: Check to term checkbox
+[INFO ] [2021-07-19 12:53:56,449] TC_01 Step 7: Click to continue button
+[INFO ] [2021-07-19 12:53:56,661] TC_01 Step 8: Input mobile OTP number
+[INFO ] [2021-07-19 12:54:09,947] TC_01 Step 9: Verify the completed register page is displayed
+[INFO ] [2021-07-19 12:54:19,373] TC_02: Input personal detail
+[INFO ] [2021-07-19 12:54:19,425] TC_02 Step 1: Click to Continue button to navigate to Business Role page
+[INFO ] [2021-07-19 12:54:19,755] TC_02 Step 2: Select business role
+[INFO ] [2021-07-19 12:54:22,781] TC_02 Step 3: Select company register place
+[INFO ] [2021-07-19 12:54:28,394] TC_02 Step 4: Select solutions
+[INFO ] [2021-07-19 12:54:34,238] TC_02 Step 5: Click to continue button
+[INFO ] [2021-07-19 12:54:34,373] TC_02 Step 6: Select registration method
+[INFO ] [2021-07-19 12:54:56,481] TC_02 Step 7: Input date of birth to the textbox field
+[INFO ] [2021-07-19 12:55:05,207] TC_02 Step 8: Select nationality in dropdown list
+[INFO ] [2021-07-19 12:55:10,709] TC_02 Step 9: Select gender in dropdown list
+[INFO ] [2021-07-19 12:55:14,100] TC_02 Step 10: Click to submit button
+[INFO ] [2021-07-19 12:55:14,254] TC_02 Step 11: Input email OTP number to text box
+[INFO ] [2021-07-19 12:55:48,220] TC_02 Step 12: Verify business detail page is displayed
+[INFO ] [2021-07-19 12:55:54,318] TC_03: Input business detail
+[INFO ] [2021-07-19 12:55:54,374] TC_03 Step 1: Input business legal name
+[INFO ] [2021-07-19 12:55:56,788] TC_03 Step 2: Input entity category
+[INFO ] [2021-07-19 12:56:00,184] TC_03 Step 3: Input entity type
+[INFO ] [2021-07-19 12:56:03,607] TC_03 Step 4: Input UEN number
+[INFO ] [2021-07-19 12:56:06,045] TC_03 Step 5: Input industry
+[INFO ] [2021-07-19 12:56:09,457] TC_03 Step 6: Input sub-industry
+[INFO ] [2021-07-19 12:56:12,996] TC_03 Step 7: Click to continue button
+[INFO ] [2021-07-19 12:56:13,232] TC_03 Step 8: Input business activity
+[INFO ] [2021-07-19 12:56:17,518] TC_03 Step 9: Input service detail
+[INFO ] [2021-07-19 12:56:20,886] TC_03 Step 10: Input company website
+[INFO ] [2021-07-19 12:56:23,376] TC_03 Step 11: Input number of employees
+[INFO ] [2021-07-19 12:56:26,760] TC_03 Step 12: Input Annual turnover
+[INFO ] [2021-07-19 12:56:30,168] TC_03 Step 13: Click to continue button
+[INFO ] [2021-07-19 12:56:30,354] TC_03 Step 14: Answer the first question

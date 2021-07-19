@@ -9,4 +9,5 @@ public class PageUIBusinessDetail {
     public static final By CONTINUE_BUTTON = By.xpath("//button[@type='button']");
     public static final String RADIO_BUTTON = "//div[contains(text(),'%s')]/parent::div/following-sibling::div[1]//div[@role='radio']/div[text()='%s']/preceding-sibling::div";
     public static final By SKIP_LINK = By.xpath("//div[contains(text(),'Skip now, ask me later')]");
+    public static final By BUSINESS_DETAIL_ITEM = By.xpath("//div[contains(text(),'Business registration number (UEN)')]");
 }

@@ -149,7 +149,7 @@ protected BasePage(WebDriver driver){
             return ((JavascriptExecutor) driverWait).executeScript("return document.readyState").toString().equalsIgnoreCase("complete");
         };
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
             WebDriverWait wait = new WebDriverWait(driver, GlobalConstants.LONG_TIME_OUT);
             wait.until(expectation);
         } catch (InterruptedException e) {

@@ -20,13 +20,17 @@ public class PageObjectBusinessDetail extends BasePage {
         selectItemInCustomDropdown(getBy(PageUIBusinessDetail.INPUT_TEXTBOX,dropDownType),PageUIBusinessDetail.DROPDOWN_LIST,entityCategory);
     }
 
+    public boolean isBusinessDetailPageDisplays(){
+        return isElementDisplayed(PageUIBusinessDetail.BUSINESS_DETAIL_ITEM);
+    }
+
     public void clickToContinueButton(){
         waitForElementClickable(PageUIBusinessDetail.CONTINUE_BUTTON);
         clickToElement(PageUIBusinessDetail.CONTINUE_BUTTON);
     }
 
     public void checkToRadioButton(String question, String answer){
-        waitForElementVisible(getBy(PageUIBusinessDetail.RADIO_BUTTON,question,answer));
+        waitForElementClickable(getBy(PageUIBusinessDetail.RADIO_BUTTON,question,answer));
         checkToCheckBoxOrRadio(getBy(PageUIBusinessDetail.RADIO_BUTTON,question,answer));
     }
 

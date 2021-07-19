@@ -13,15 +13,16 @@ public class PageObjectPersonalDetail extends BasePage {
     }
 
     public void selectCompanyRegisterPlace(String company){
+        waitForElementVisible(PageUIPersonalDetail.CONTINUE_BUTTON);
         waitForPageLoaded();
-        selectItemInCustomDropdown(PageUIPersonalDetail.COMPANY_DROPDOWN_SELECTION_PARENT,PageUIPersonalDetail.COMPANY_DROPDOWN_SELECTION_LIST,company);
+        selectItemInCustomDropdown(PageUIPersonalDetail.COMPANY_DROPDOWN_SELECTION,PageUIPersonalDetail.COMPANY_DROPDOWN_SELECTION_LIST,company);
 
     }
 
     public void selectSolutions(List<String> solutions){
-        waitForElementClickable(PageUIPersonalDetail.OPTION_SELECTION_PARENT);
-        selectItemsInCustomDropdown(PageUIPersonalDetail.OPTION_SELECTION_PARENT,PageUIPersonalDetail.OPTION_SELECTION_LIST,solutions);
-        clickToElementByJS(PageUIPersonalDetail.OPTION_SELECTION_PARENT);
+        waitForElementClickable(PageUIPersonalDetail.OPTION_SELECTION);
+        selectItemsInCustomDropdown(PageUIPersonalDetail.OPTION_SELECTION,PageUIPersonalDetail.OPTION_SELECTION_LIST,solutions);
+        clickToElementByJS(PageUIPersonalDetail.OPTION_SELECTION);
 
     }
 
@@ -37,8 +38,8 @@ public class PageObjectPersonalDetail extends BasePage {
     }
 
     public void inputDateOfBirth(String day, String month, String year){
-        waitForElementVisible(PageUIPersonalDetail.DATE_OF_BIRTH_TEXTBOX);
-        clickToElement(PageUIPersonalDetail.DATE_OF_BIRTH_TEXTBOX);
+        waitForElementVisible(PageUIPersonalDetail.DATE_OF_BIRTH_TEXT_BOX);
+        clickToElement(PageUIPersonalDetail.DATE_OF_BIRTH_TEXT_BOX);
         waitForElementVisible(PageUIPersonalDetail.MONTH_SELECT_BUTTON);
         selectYear(year);
         sleepInSecond(1);
@@ -77,8 +78,6 @@ public class PageObjectPersonalDetail extends BasePage {
 
     }
 
-
-
     public void selectYear(String year){
         waitForElementVisible(PageUIPersonalDetail.YEAR_SELECT_BUTTON);
         clickToElement(PageUIPersonalDetail.YEAR_SELECT_BUTTON);
@@ -98,22 +97,20 @@ public class PageObjectPersonalDetail extends BasePage {
     }
 
     public void selectNationality(String nationality){
-        waitForElementClickable(PageUIPersonalDetail.NATIONALITY_DROPDOWN_PARENT);
+        waitForElementClickable(PageUIPersonalDetail.NATIONALITY_DROPDOWN);
         waitForPageLoaded();
-        selectItemInCustomDropdown(PageUIPersonalDetail.NATIONALITY_DROPDOWN_PARENT, PageUIPersonalDetail.NATIONALITY_DROPDOWN_LIST, nationality);
+        selectItemInCustomDropdown(PageUIPersonalDetail.NATIONALITY_DROPDOWN, PageUIPersonalDetail.NATIONALITY_DROPDOWN_LIST, nationality);
 
     }
 
     public void selectGender(String gender){
-        waitForElementClickable(PageUIPersonalDetail.GENDER_DROPDOWN_PARENT);
-        selectItemInCustomDropdown(PageUIPersonalDetail.GENDER_DROPDOWN_PARENT,PageUIPersonalDetail.GENDER_DROPDOWN_LIST, gender);
+        waitForElementClickable(PageUIPersonalDetail.GENDER_DROPDOWN);
+        selectItemInCustomDropdown(PageUIPersonalDetail.GENDER_DROPDOWN,PageUIPersonalDetail.GENDER_DROPDOWN_LIST, gender);
     }
 
     public void clickToSubmitButton(){
         waitForElementClickable(PageUIPersonalDetail.SUBMIT_BUTTON);
         clickToElement(PageUIPersonalDetail.SUBMIT_BUTTON);
     }
-
-
 
 }

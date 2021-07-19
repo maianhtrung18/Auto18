@@ -3,8 +3,8 @@ package Commons;
 import java.io.File;
 
 public class GlobalConstants {
-    public static final int LONG_TIME_OUT = 30;
-    public static final int SHORT_TIME_OUT = 5;
+    public static final int LONG_TIME_OUT = 60;
+    public static final int SHORT_TIME_OUT = 10;
 
     public static final String separator = File.separator;
     public static final String projectLocation = System.getProperty("user.dir");

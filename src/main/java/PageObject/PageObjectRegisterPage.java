@@ -30,6 +30,4 @@ public class PageObjectRegisterPage extends BasePage {
         clickToElement(PageUIRegisterPage.CONTINUE_BUTTON);
     }
 
-
-
 }

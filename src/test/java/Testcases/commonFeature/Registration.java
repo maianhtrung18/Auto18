@@ -11,15 +11,52 @@ import java.util.List;
 
 public class Registration extends BaseTest {
 
-
     @Test
     public void TC_01(){
-        log.info("Register to system");
+        log.info("TC_01: Register to system");
 
         String fullName = "Mai Anh Trung";
         String email = CommonFunctions.getCurrentTime("yymmddhhmmss")+"anh.maitrung@gmail.com";
         String phone = CommonFunctions.getRandomInteger(8,10);
         String channel = "Google";
+        String OTPNumber = "1234";
+
+        PageObjectLoginPage loginPage = PageObjectManager.getLoginPage(driver);
+        PageObjectRegisterPage registerPage = PageObjectManager.getRegisterPage(driver);
+        PageObjectVerificationPage verificationPage = PageObjectManager.getMobileVerification(driver);
+
+        log.info("TC_01 Step 1: Navigate to register page");
+        loginPage.clickToRegisterLink();
+
+        log.info("TC_01 Step 2: Input full name to full name text box");
+        registerPage.inputText("full_name",fullName);
+
+        log.info("TC_01 Step 3: Input email to email text box");
+        registerPage.inputText("email", email);
+
+        log.info("TC_01 Step 4: Input phone to phone text box");
+        registerPage.inputText("phone", phone);
+
+        log.info("TC_01 Step 5: Select information channel");
+        registerPage.selectInformationChannel(channel);
+
+        log.info("TC_01 Step 6: Check to term checkbox");
+        registerPage.checkToTermCheckbox();
+
+        log.info("TC_01 Step 7: Click to continue button");
+        registerPage.clickToContinueButton();
+
+        log.info("TC_01 Step 8: Input mobile OTP number");
+        verificationPage.inputOTPNumber(OTPNumber);
+
+        log.info("TC_01 Step 9: Verify the completed register page is displayed");
+        Assert.assertTrue(verificationPage.isCompletedRegisterPageDisplayed());
+
+    }
+    @Test
+    public void TC_02(){
+        log.info("TC_02: Input personal detail");
+
         String OTPNumber = "1234";
         String businessRole = "I am a registered director of the company";
         String companyRegisterPlace = "Singapore";
@@ -27,6 +64,58 @@ public class Registration extends BaseTest {
         String registrationMethod = "Standard Registration";
         String nationality = "Angola";
         String gender = "Male";
+        String dayOfBirth = "12";
+        String monthOfBirth = "Jun";
+        String yearOfBirth = "1951";
+
+        PageObjectVerificationPage verificationPage = PageObjectManager.getMobileVerification(driver);
+        PageObjectBusinessRole businessRolePage = PageObjectManager.getBusinessRole(driver);
+        PageObjectPersonalDetail personalDetail = PageObjectManager.getPersonalDetail(driver);
+        PageObjectBusinessDetail businessDetail = PageObjectManager.getBusinessDetail(driver);
+
+        log.info("TC_02 Step 1: Click to Continue button to navigate to Business Role page");
+        verificationPage.clickToContinueButton();
+
+        log.info("TC_02 Step 2: Select business role");
+        businessRolePage.selectTheBusinessRole(businessRole);
+
+        log.info("TC_02 Step 3: Select company register place");
+        personalDetail.selectCompanyRegisterPlace(companyRegisterPlace);
+
+        log.info("TC_02 Step 4: Select solutions");
+        personalDetail.selectSolutions(solutions);
+
+        log.info("TC_02 Step 5: Click to continue button");
+        personalDetail.clickToContinueButton();
+
+        log.info("TC_02 Step 6: Select registration method");
+        personalDetail.clickToSelectionMethodRegistration(registrationMethod);
+
+        log.info("TC_02 Step 7: Input date of birth to the textbox field");
+        personalDetail.inputDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth);
+
+        log.info("TC_02 Step 8: Select nationality in dropdown list");
+        personalDetail.selectNationality(nationality);
+
+        log.info("TC_02 Step 9: Select gender in dropdown list");
+        personalDetail.selectGender(gender);
+
+        log.info("TC_02 Step 10: Click to submit button");
+        personalDetail.clickToSubmitButton();
+
+        log.info("TC_02 Step 11: Input email OTP number to text box");
+        verificationPage.inputOTPNumber(OTPNumber);
+
+        log.info("TC_02 Step 12: Verify business detail page is displayed");
+        Assert.assertTrue(businessDetail.isBusinessDetailPageDisplays());
+
+    }
+
+    @Test
+    public void TC_03(){
+
+        log.info("TC_03: Input business detail");
+
         String UENNumber = CommonFunctions.getRandomInteger(8,9) + CommonFunctions.getRandomString(1);
         String businessLegalName = "Bookstore";
         String entityCategory = "Limited companies";
@@ -38,136 +127,68 @@ public class Registration extends BaseTest {
         String companyWebsite ="http://www.google.com";
         String numberOfEmployee = "2-10";
         String annualTurnOver = "S$0 - S$50,000";
-        String dayOfBirth = "12";
-        String monthOfBirth = "Jun";
-        String yearOfBirth = "1951";
 
-        PageObjectLoginPage loginPage = PageObjectManager.getLoginPage(driver);
-        PageObjectRegisterPage registerPage = PageObjectManager.getRegisterPage(driver);
-        PageObjectVerificationPage verificationPage = PageObjectManager.getMobileVerification(driver);
-        PageObjectBusinessRole businessRolePage = PageObjectManager.getBusinessRole(driver);
-        PageObjectPersonalDetail personalDetail = PageObjectManager.getPersonalDetail(driver);
         PageObjectBusinessDetail businessDetail = PageObjectManager.getBusinessDetail(driver);
         PageObjectIdentityVerification identityVerification = PageObjectManager.getIdentityVerification(driver);
 
-        log.info("Navigate to register page");
-        loginPage.clickToRegisterLink();
-
-        log.info("Input fullname to full name textbox");
-        registerPage.inputText("full_name",fullName);
-
-        log.info("Input email to email textbox");
-        registerPage.inputText("email", email);
-
-        log.info("Input phone to phone textbox");
-        registerPage.inputText("phone", phone);
-
-        log.info("Select information channel");
-        registerPage.selectInformationChannel(channel);
-
-        log.info("Check to term checkbox");
-        registerPage.checkToTermCheckbox();
-
-        log.info("click to continue button");
-        registerPage.clickToContinueButton();
-
-        log.info("input mobile OTP number");
-        verificationPage.inputOTPNumber(OTPNumber);
-
-        log.info("Verify the completed register page is displayed");
-        Assert.assertTrue(verificationPage.isCompletedRegisterPageDisplayed());
-
-        log.info("Click to Continue button to navigate to Business Role page");
-        verificationPage.clickToContinueButton();
-
-        log.info("Select business role");
-        businessRolePage.selectTheBusinessRole(businessRole);
-
-        log.info("Select company register place");
-        personalDetail.selectCompanyRegisterPlace(companyRegisterPlace);
-
-        log.info("Select solutions");
-        personalDetail.selectSolutions(solutions);
-
-        log.info("Click to continue button");
-        personalDetail.clickToContinueButton();
-
-        log.info("Select registration method");
-        personalDetail.clickToSelectionMethodRegistration(registrationMethod);
-
-        log.info("Input date of birth to the textbox field");
-        personalDetail.inputDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth);
-
-        log.info("Select nationality in dropdown list");
-        personalDetail.selectNationality(nationality);
-
-        log.info("Select gender in dropdown list");
-        personalDetail.selectGender(gender);
-
-        log.info("Click to submit button");
-        personalDetail.clickToSubmitButton();
-
-        log.info("Input email OTP number to text box");
-        verificationPage.inputOTPNumber(OTPNumber);
-
-        log.info("Input business legal name");
+        log.info("TC_03 Step 1: Input business legal name");
         businessDetail.inputInfoToTextBox("Business legal name",businessLegalName);
 
-        log.info("Input entity category");
+        log.info("TC_03 Step 2: Input entity category");
         businessDetail.selectDropdownList("Entity category",entityCategory);
 
-        log.info("Input entity type");
+        log.info("TC_03 Step 3: Input entity type");
         businessDetail.selectDropdownList("Entity type",entityType);
 
-        log.info("Input UEN number");
+        log.info("TC_03 Step 4: Input UEN number");
         businessDetail.inputInfoToTextBox("UEN",UENNumber);
 
-        log.info("Input industry");
+        log.info("TC_03 Step 5: Input industry");
         businessDetail.selectDropdownList("Industry", industry);
 
-        log.info("Input sub-industry");
+        log.info("TC_03 Step 6: Input sub-industry");
         businessDetail.selectDropdownList("Sub-Industry",subIndustry);
 
-        log.info("Click to continue button");
+        log.info("TC_03 Step 7: Click to continue button");
         businessDetail.clickToContinueButton();
 
-        log.info("Input business activity");
+        log.info("TC_03 Step 8: Input business activity");
         businessDetail.inputInfoToTextBox("Business activity",businessActivity);
 
-        log.info("Input service detail");
+        log.info("TC_03 Step 9: Input service detail");
         businessDetail.inputInfoToTextBox("Tell us a detailed",serviceDetail);
 
-        log.info("Input company website");
+        log.info("TC_03 Step 10: Input company website");
         businessDetail.inputInfoToTextBox("Live business website",companyWebsite);
 
-        log.info("Input number of employees");
+        log.info("TC_03 Step 11: Input number of employees");
         businessDetail.selectDropdownList("Number of employees",numberOfEmployee);
 
-        log.info("Input Annual turnover");
+        log.info("TC_03 Step 12: Input Annual turnover");
         businessDetail.selectDropdownList("Annual turnover",annualTurnOver);
 
-        log.info("Click to continue button");
+        log.info("TC_03 Step 13: Click to continue button");
         businessDetail.clickToContinueButton();
 
-        log.info("Answer the first question");
+        log.info("TC_03 Step 14: Answer the first question");
         businessDetail.checkToRadioButton("close family member or close associate of a PEP", "Yes");
 
-        log.info("Answer the second question");
+        log.info("TC_03 Step 15: Answer the second question");
         businessDetail.checkToRadioButton(" have corporate shareholders with more than 10% ordinary shares","Yes");
 
-        log.info("Click to continue button");
+        log.info("TC_03 Step 16: Click to continue button");
         businessDetail.clickToContinueButton();
 
-        log.info("Skip uploading certificate");
+        log.info("TC_03 Step 17: Skip uploading certificate");
         businessDetail.clickSkippedUploadingCertificateLink();
 
-        log.info("Click start identity button");
+        log.info("TC_03 Step 18: Click start identity button");
         identityVerification.clickStartButton();
 
-        log.info("Click begin button");
+        log.info("TC_03 Step 19: Click begin button");
         identityVerification.clickBeginButton();
 
-
+        log.info("TC_03 Step 20: Verify identity verification page is displayed");
 
     }
 }

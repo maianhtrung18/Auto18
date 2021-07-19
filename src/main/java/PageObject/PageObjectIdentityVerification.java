@@ -18,6 +18,12 @@ public class PageObjectIdentityVerification extends BasePage {
     public void clickBeginButton(){
         waitForElementVisible(PageUIIdentityVerification.IDENTITY_GUIDANCE);
         waitForElementVisible(PageUIIdentityVerification.GET_STARTED_BUTTON);
-        clickToElement(PageUIIdentityVerification.GET_STARTED_BUTTON);
+        clickToElementByJS(PageUIIdentityVerification.GET_STARTED_BUTTON);
     }
+
+    public boolean isIdentityVerificationDisplayed(){
+        return isElementDisplayed(PageUIIdentityVerification.IDENTITY_VERIFICATION_HEADER);
+    }
+
+
 }
