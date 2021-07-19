@@ -21,13 +21,12 @@ public class CommonFunctions {
     }
 
     public static String getRandomString(int numberOfLetter){
-        String randomString = RandomStringUtils.randomAlphabetic(1);
+        String randomString = RandomStringUtils.randomAlphabetic(numberOfLetter);
         return randomString;
     }
 
-    public static String getRandomInteger(int minLength, int Length){
-
-        String randomNumber = RandomStringUtils.randomNumeric(minLength,Length);
+    public static String getRandomInteger(int minLength, int maxLength){
+        String randomNumber = RandomStringUtils.randomNumeric(minLength,maxLength);
         return randomNumber;
     }
 }

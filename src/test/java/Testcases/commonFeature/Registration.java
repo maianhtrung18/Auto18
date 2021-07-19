@@ -12,7 +12,7 @@ import java.util.List;
 public class Registration extends BaseTest {
 
     @Test
-    public void TC_01(){
+    public void TC_01_Register_To_System(){
         log.info("TC_01: Register to system");
 
         String fullName = "Mai Anh Trung";
@@ -53,8 +53,9 @@ public class Registration extends BaseTest {
         Assert.assertTrue(verificationPage.isCompletedRegisterPageDisplayed());
 
     }
-    @Test
-    public void TC_02(){
+    @Test(dependsOnMethods = "TC_01_Register_To_System")
+    public void TC_02_Input_Personal_Detail(){
+
         log.info("TC_02: Input personal detail");
 
         String OTPNumber = "1234";
@@ -91,7 +92,7 @@ public class Registration extends BaseTest {
         log.info("TC_02 Step 6: Select registration method");
         personalDetail.clickToSelectionMethodRegistration(registrationMethod);
 
-        log.info("TC_02 Step 7: Input date of birth to the textbox field");
+        log.info("TC_02 Step 7: Input date of birth to the text box field");
         personalDetail.inputDateOfBirth(dayOfBirth, monthOfBirth, yearOfBirth);
 
         log.info("TC_02 Step 8: Select nationality in dropdown list");
@@ -111,8 +112,8 @@ public class Registration extends BaseTest {
 
     }
 
-    @Test
-    public void TC_03(){
+    @Test(dependsOnMethods = "TC_02_Input_Personal_Detail")
+    public void TC_03_Input_Business_Detail(){
 
         log.info("TC_03: Input business detail");
 
@@ -189,6 +190,7 @@ public class Registration extends BaseTest {
         identityVerification.clickBeginButton();
 
         log.info("TC_03 Step 20: Verify identity verification page is displayed");
+        identityVerification.isIdentityVerificationPageDisplayed();
 
     }
 }

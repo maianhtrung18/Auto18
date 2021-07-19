@@ -28,7 +28,7 @@
         </layout>
     </appender>
 
-    <appender name="testng" class="config.reportConfig.TestNGAppender">
+    <appender name="testng" class="Configuration.TestNGAppender">
         <param name="Threshold" value="INFO" />
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern" value="[%-5p] [%d] %m%n" />
@@ -42,8 +42,6 @@
         <appender-ref ref="file" />
         <appender-ref ref="testng" />
     </category>
-
-
 
     <root>
         <priority value="warn" />

@@ -2,13 +2,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [QA_Automation]">
   <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
   <test thread-count="5" verbose="0" name="RunTestcases(failed)">
     <classes>
       <class name="Testcases.commonFeature.Registration">
         <methods>
+          <include name="TC_02_Input_Personal_Detail"/>
           <include name="initTest"/>
+          <include name="TC_01_Register_To_System"/>
           <include name="closeBrowser"/>
-          <include name="TC_01"/>
+          <include name="TC_03_Input_Business_Detail"/>
         </methods>
       </class> <!-- Testcases.commonFeature.Registration -->
     </classes>

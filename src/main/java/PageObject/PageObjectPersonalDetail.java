@@ -16,14 +16,12 @@ public class PageObjectPersonalDetail extends BasePage {
         waitForElementVisible(PageUIPersonalDetail.CONTINUE_BUTTON);
         waitForPageLoaded();
         selectItemInCustomDropdown(PageUIPersonalDetail.COMPANY_DROPDOWN_SELECTION,PageUIPersonalDetail.COMPANY_DROPDOWN_SELECTION_LIST,company);
-
     }
 
     public void selectSolutions(List<String> solutions){
         waitForElementClickable(PageUIPersonalDetail.OPTION_SELECTION);
         selectItemsInCustomDropdown(PageUIPersonalDetail.OPTION_SELECTION,PageUIPersonalDetail.OPTION_SELECTION_LIST,solutions);
         clickToElementByJS(PageUIPersonalDetail.OPTION_SELECTION);
-
     }
 
     public void clickToContinueButton(){
@@ -46,8 +44,6 @@ public class PageObjectPersonalDetail extends BasePage {
         selectMonth(month);
         sleepInSecond(1);
         selectDay(day);
-
-
     }
     public void selectDay(String day){
         waitForElementVisible(PageUIPersonalDetail.DATE_VIEW);
@@ -58,9 +54,7 @@ public class PageObjectPersonalDetail extends BasePage {
                 dayElement.click();
                 break;
             }
-
         }
-
     }
 
     public void selectMonth(String month){
@@ -75,7 +69,6 @@ public class PageObjectPersonalDetail extends BasePage {
                     break;
                 }
             }
-
     }
 
     public void selectYear(String year){

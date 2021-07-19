@@ -2,7 +2,6 @@ PageUI\PageUIIdentityVerification.class
 PageUI\PageUIPersonalDetail.class
 PageUI\PageUIBusinessRole.class
 Commons\GlobalConstants.class
-PageUI\PageUIAdditionalDetail.class
 PageObject\PageObjectBusinessDetail.class
 Commons\BasePage.class
 PageUI\PageUIOnboardingPage.class
@@ -10,7 +9,6 @@ PageObject\PageObjectIdentityVerification.class
 PageUI\PageUILoginPage.class
 PageObject\PageObjectOnboardingPage.class
 Configuration\TestNGAppender.class
-PageObject\PageObjectAdditionalDetail.class
 PageObject\PageObjectManager.class
 PageObject\PageObjectRegisterPage.class
 PageUI\PageUIRegisterPage.class

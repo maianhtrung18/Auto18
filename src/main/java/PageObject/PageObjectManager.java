@@ -70,7 +70,4 @@ public class PageObjectManager {
         }
         return registerPage;
     }
-
-
-
 }

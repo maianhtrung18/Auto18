@@ -21,7 +21,7 @@ public class PageObjectIdentityVerification extends BasePage {
         clickToElementByJS(PageUIIdentityVerification.GET_STARTED_BUTTON);
     }
 
-    public boolean isIdentityVerificationDisplayed(){
+    public boolean isIdentityVerificationPageDisplayed(){
         return isElementDisplayed(PageUIIdentityVerification.IDENTITY_VERIFICATION_HEADER);
     }
 
