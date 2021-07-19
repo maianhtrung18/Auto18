@@ -33,7 +33,7 @@ public class Registration extends BaseTest {
         String entityType = "Limited partnership";
         String industry = "Manufacturing";
         String subIndustry = "Fresh Food";
-        String businessActivity = "The application provide sale service about sport ticket for organizers. ";
+        String businessActivity = "The application provide sale service about sport ticket for organizers.";
         String serviceDetail= "The high schools in the US organize the sport tournaments and use this application as the third party to sell tickets of these events for their students.";
         String companyWebsite ="http://www.google.com";
         String numberOfEmployee = "2-10";
