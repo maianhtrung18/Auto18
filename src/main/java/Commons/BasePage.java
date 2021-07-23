@@ -18,63 +18,64 @@ import java.util.List;
 public class BasePage {
 
 protected WebDriver driver;
-protected final Log log= LogFactory.getLog(getClass());
+protected final Log log = LogFactory.getLog(getClass());
 protected BasePage(WebDriver driver){
     this.driver = driver;
+
 }
-    public By getBy(String locator) {
+    protected By getBy(String locator) {
         return By.xpath(locator);
     }
 
-    public By getBy(String locator, String... dynamicValues){
+    protected By getBy(String locator, String... dynamicValues){
         return By.xpath(String.format(locator, (Object[]) dynamicValues));
     }
 
-    public WebElement getElement(By locator) {
+    protected WebElement getElement(By locator) {
         return driver.findElement(locator);
     }
 
-    public List<WebElement> getElements(By locator) {
+    protected List<WebElement> getElements(By locator) {
         return driver.findElements(locator);
     }
 
-    public void clickToElement(By locator) {
+    protected void clickToElement(By locator) {
         getElement(locator).click();
     }
 
-    public void sendKeyToElement(By locator, String value) {
+    protected void sendKeyToElement(By locator, String value) {
         getElement(locator).clear();
         getElement(locator).sendKeys(value);
     }
 
-    public void pressKeyToElement(By Locator, String key) {
+    protected void pressKeyToElement(By Locator, String key) {
         action = new Actions(driver);
         action.sendKeys(getElement(Locator), key).perform();
     }
 
-    public void sendKeys(String value) {
+    protected void sendKeys(String value) {
         action = new Actions(driver);
         action.sendKeys(value).perform();
     }
 
-    public void sendKeyToElementByJS(By locator, String value) {
+    protected void sendKeyToElementByJS(By locator, String value) {
         jsExecutor = (JavascriptExecutor) driver;
         jsExecutor.executeScript("arguments[0].setAttribute('value', '" + value + "')", getElement(locator));
     }
 
-    public String getPageUrl(){
+    protected String getPageUrl(){
         return driver.getCurrentUrl();
     }
 
-    public void openPageUrl(String Url) {
+    protected void openPageUrl(String Url) {
         driver.get(Url);
     }
 
-    public String getPageTitle() {
+    protected String getPageTitle() {
         return driver.getTitle();
     }
 
-    public void sleepInSecond(long timeInSecond) {
+    protected void sleepInSecond(long timeInSecond) {
         try {
             Thread.sleep(timeInSecond*1000);
         } catch (InterruptedException e) {
@@ -82,29 +83,29 @@ protected BasePage(WebDriver driver){
         }
     }
 
-    public void selectDropdownByText(By locator, String itemText) {
+    protected void selectDropdownByText(By locator, String itemText) {
         select = new Select(getElement(locator));
         select.selectByVisibleText(itemText);
     }
 
-    public String getSelectedItemDropdown(By locator) {
+    protected String getSelectedItemDropdown(By locator) {
         select = new Select(getElement(locator));
         return select.getFirstSelectedOption().getText();
     }
 
-    public void backToPreviousPage() {
+    protected void backToPreviousPage() {
         driver.navigate().back();
     }
 
-    public void forwardToNextPage() {
+    protected void forwardToNextPage() {
         driver.navigate().forward();
     }
 
-    public void refreshCurrentPage() {
+    protected void refreshCurrentPage() {
         driver.navigate().refresh();
     }
 
-    public void selectItemInCustomDropdown(By parentLocator, By childItemLocator, String expectedItem) {
+    protected void selectItemInCustomDropdown(By parentLocator, By childItemLocator, String expectedItem) {
         getElement(parentLocator).click();
         sleepInSecond(1);
 
@@ -123,7 +124,7 @@ protected BasePage(WebDriver driver){
         }
     }
 
-    public void selectItemsInCustomDropdown(By parentLocator, By childItemLocator, List<String> expectedItems) {
+    protected void selectItemsInCustomDropdown(By parentLocator, By childItemLocator, List<String> expectedItems) {
         getElement(parentLocator).click();
         sleepInSecond(1);
 
@@ -143,10 +144,10 @@ protected BasePage(WebDriver driver){
         }
     }
 
-    public void waitForPageLoaded() {
-        ExpectedCondition<Boolean> expectation = driverWait -> {
-            assert driverWait != null;
-            return ((JavascriptExecutor) driverWait).executeScript("return document.readyState").toString().equalsIgnoreCase("complete");
+    protected void waitForPageLoaded() {
+        ExpectedCondition<Boolean> expectation = webDriver -> {
+            assert webDriver != null;
+            return ((JavascriptExecutor) webDriver).executeScript("return document.readyState").toString().equalsIgnoreCase("complete");
         };
         try {
             Thread.sleep(2000);
@@ -158,27 +159,27 @@ protected BasePage(WebDriver driver){
         }
     }
 
-    public String getElementText(By locator) {
+    protected String getElementText(By locator) {
         return getElement(locator).getText();
     }
 
-    public void checkToCheckBoxOrRadio(By locator) {
+    protected void checkToCheckBoxOrRadio(By locator) {
         if (!getElement(locator).isSelected()) {
             getElement(locator).click();
         }
     }
 
-    public void uncheckToCheckBox(By locator) {
+    protected void uncheckToCheckBox(By locator) {
         if (isElementSelected(locator)) {
             getElement(locator).click();
         }
     }
 
-    public boolean isElementSelected(By locator) {
+    protected boolean isElementSelected(By locator) {
         return getElement(locator).isSelected();
     }
 
-    public boolean isElementDisplayed(By locator) {
+    protected boolean isElementDisplayed(By locator) {
         try{
             return getElement(locator).isDisplayed();
         }
@@ -187,44 +188,54 @@ protected BasePage(WebDriver driver){
         }
     }
 
-    public boolean isElementEnabled(By locator) {
+    protected boolean isElementEnabled(By locator) {
         return getElement(locator).isEnabled();
     }
 
-    public WebDriver switchToIframeByElement(By locator) {
+    protected WebDriver switchToIframeByElement(By locator) {
         return driver.switchTo().frame(getElement(locator));
     }
 
-    public WebDriver switchToDefaultContent() {
+    protected WebDriver switchToDefaultContent() {
         return driver.switchTo().defaultContent();
 
     }
 
-    public void scrollToBottomPage() {
+    protected void scrollToBottomPage() {
         jsExecutor = (JavascriptExecutor) driver;
         jsExecutor.executeScript("window.scrollBy(0,document.body.scrollHeight)");
     }
 
-    public void waitForElementVisible(By locator) {
+    protected void waitForElementVisible(By locator) {
         explicitWait = new WebDriverWait(driver, timeOutInSecond);
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 
     }
 
-     public void waitForAllElementsVisible(By locator) {
+     protected void waitForAllElementsVisible(By locator) {
         explicitWait = new WebDriverWait(driver, timeOutInSecond);
         explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
     }
 
-    public void waitForElementClickable(By locator) {
+    protected void waitForElementClickable(By locator) {
         explicitWait = new WebDriverWait(driver, timeOutInSecond);
         explicitWait.until(ExpectedConditions.elementToBeClickable(locator));
     }
 
-    public void clickToElementByJS(By locator) {
+    protected void clickToElementByJS(By locator) {
         jsExecutor = (JavascriptExecutor) driver;
         jsExecutor.executeScript("arguments[0].click();", getElement(locator));
     }
+
+    protected void waitForElement(By locator){
+        explicitWait = new WebDriverWait(driver, timeOutInSecond);
+        explicitWait.until(new ExpectedCondition<Boolean>() {
+
+        public Boolean apply(WebDriver webDriver) {
+            log.info("Please be patience .... Searching ...");
+            return webDriver.findElement(locator) != null;
+        }
+    });}
 
 
 

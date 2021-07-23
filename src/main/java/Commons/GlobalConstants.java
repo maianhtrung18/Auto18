@@ -9,5 +9,6 @@ public class GlobalConstants {
     public static final String separator = File.separator;
     public static final String projectLocation = System.getProperty("user.dir");
 
-    public static final String url = "https://feature-qa-automation.customer-frontend.staging.aspireapp.com/sg/";
+//    public static final String url = "https://feature-qa-automation.customer-frontend.staging.aspireapp.com/sg/";
+    public static final String url = "http://www.google.com";
 }

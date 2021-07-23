@@ -25,6 +25,8 @@ public class Registration extends BaseTest {
         PageObjectRegisterPage registerPage = PageObjectManager.getRegisterPage(driver);
         PageObjectVerificationPage verificationPage = PageObjectManager.getMobileVerification(driver);
 
+        loginPage.waitElement();
+
         log.info("TC_01 Step 1: Navigate to register page");
         loginPage.clickToRegisterLink();
 

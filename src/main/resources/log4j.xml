@@ -35,6 +35,7 @@
         </layout>
     </appender>
 
+
     <category name="Testcases">
         <priority value="all" />
         <appender-ref ref="console" />
@@ -43,6 +44,14 @@
         <appender-ref ref="testng" />
     </category>
 
+    <category name="Commons">
+        <priority value="all" />
+        <appender-ref ref="console" />
+        <appender-ref ref="logfile" />
+        <appender-ref ref="file" />
+        <appender-ref ref="testng" />
+    </category>
+    
     <root>
         <priority value="warn" />
     </root>

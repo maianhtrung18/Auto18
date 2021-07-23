@@ -9,8 +9,14 @@ public class PageObjectLoginPage extends BasePage {
         super(driver);
     }
 
+
+
     public void clickToRegisterLink(){
         waitForElementClickable(PageUILoginPage.REGISTER_LINK);
         clickToElementByJS(PageUILoginPage.REGISTER_LINK);
+    }
+
+    public void waitElement(){
+    waitForElement(PageUILoginPage.REGISTER_LINK);
     }
 }
